@@ -1,0 +1,39 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1562432190742,1505,GET Current Weather Data by 32 & 9,429,,Latlon Group 1-1,text,false,,750,213,1,3,1505,0,1214
+1562432190744,1503,GET Current Weather Data by Postal Code ﻿2000,429,,Postcode Group 2-1,text,false,,750,233,1,3,1503,0,1212
+1562432190580,1668,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-1,text,false,,750,214,1,3,1668,0,1377
+1562432192252,411,GET Current Weather Data by 45 & 76,429,,Latlon Group 1-1,text,false,,750,214,1,3,411,0,0
+1562432192249,414,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-1,text,false,,750,225,1,3,414,0,0
+1562432192249,414,GET Current Weather Data by Postal Code 2600,429,,Postcode Group 2-1,text,false,,750,224,1,3,414,0,0
+1562432192664,407,GET Current Weather Data by 34 & 88,429,,Latlon Group 1-1,text,false,,759,214,1,2,407,0,0
+1562432192664,407,GET Current Weather Data by Postal Code 3000,429,,Postcode Group 2-1,text,false,,759,224,1,2,407,0,0
+1562432193071,1229,GET Current Weather Data by Postal Code 4000,429,,Postcode Group 2-1,text,false,,759,224,1,2,1229,0,908
+1562432193071,1229,GET Current Weather Data by 23 & 87,429,,Latlon Group 1-1,text,false,,759,214,1,2,1229,0,893
+1562432194300,276,GET Current Weather Data by Postal Code 5000,429,,Postcode Group 2-1,text,false,,759,224,1,2,276,0,0
+1562432194301,275,GET Current Weather Data by 12 & 89,429,,Latlon Group 1-1,text,false,,759,214,1,2,275,0,0
+1562432194577,259,GET Current Weather Data by 55 & 98,429,,Latlon Group 1-1,text,false,,751,214,1,2,259,0,0
+1562432194577,260,GET Current Weather Data by Postal Code 6000,429,,Postcode Group 2-1,text,false,,751,224,1,2,260,0,0
+1562432194837,282,GET Current Weather Data by 54 & 78,429,,Latlon Group 1-1,text,false,,751,214,1,2,282,0,0
+1562432194837,282,GET Current Weather Data by Postal Code 7000,429,,Postcode Group 2-1,text,false,,751,224,1,2,282,0,0
+1562432195119,1405,GET Current Weather Data by 34 & 23,429,,Latlon Group 1-1,text,false,,759,214,1,3,1405,0,1024
+1562432195120,1404,GET Current Weather Data by Postal Code 800,429,,Postcode Group 2-1,text,false,,759,223,1,3,1404,0,1023
+1562432196526,271,GET Current Weather Data by 98 & 34,429,,Latlon Group 1-1,text,false,,759,214,1,2,271,0,0
+1562432196797,274,GET Current Weather Data by 8 & 78,429,,Latlon Group 1-1,text,false,,759,213,1,2,274,0,0
+1562432196519,1170,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-2,text,false,,759,214,1,1,1170,0,822
+1562432197689,300,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-2,text,false,,750,225,1,1,300,0,0
+1562432202517,1391,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-3,text,false,,750,214,1,1,1391,0,999
+1562432203908,269,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-3,text,false,,750,225,1,1,269,0,0
+1562432208519,1143,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-4,text,false,,759,214,1,1,1143,0,819
+1562432209662,271,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-4,text,false,,750,225,1,1,271,0,0
+1562432214515,1083,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-5,text,false,,759,214,1,1,1083,0,816
+1562432215599,265,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-5,text,false,,750,225,1,1,265,0,0
+1562432220519,1060,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-6,text,false,,759,214,1,1,1060,0,797
+1562432221581,469,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-6,text,false,,748,225,1,1,469,0,0
+1562432226518,1188,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-7,text,false,,759,214,1,1,1187,0,815
+1562432227707,508,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-7,text,false,,750,225,1,1,508,0,0
+1562432232519,1408,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-8,text,false,,750,214,1,1,1408,0,999
+1562432233928,414,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-8,text,false,,750,225,1,1,414,0,0
+1562432238519,1144,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-9,text,false,,759,214,1,1,1144,0,808
+1562432239664,423,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-9,text,false,,750,225,1,1,423,0,0
+1562432244522,1491,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-10,text,false,,750,214,1,1,1491,0,1080
+1562432246013,410,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-10,text,false,,750,225,1,1,409,0,0

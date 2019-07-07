@@ -1,0 +1,13 @@
+{
+  "searchParameter": "Apply for a number plate",
+  "postal_code": [
+    {
+      "code": "Sydney 2000",
+      "serviceCenter": "Marrickville Service Centre "
+    },
+    {
+      "code": "Sydney Domestic Airport 2020",
+      "serviceCenter": "Rockdale Service Centre"
+    }
+  ]
+}

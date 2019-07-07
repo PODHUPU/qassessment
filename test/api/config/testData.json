@@ -1,0 +1,10 @@
+{
+  "postal_code": {
+    "code": "2000"
+  },
+  "latlon": {
+    "lat": 40.730610,
+    "lon": -73.935242,
+    "state_code":"NY"
+  }
+}

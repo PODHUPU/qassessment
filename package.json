@@ -1,0 +1,53 @@
+{
+  "name": "qassessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PODHUPU/qassessment.git",
+  "author": "Avinash Eediga",
+  "license": "MIT",
+  "scripts": {
+    "apitest": "./node_modules/.bin/mocha ./test/api/specs/*.spec.js --opts test/api/config/mocha.opts --reporter mochawesome --reporter-options reportDir=test-results/api,reportFilename=api-test-report,json=false",
+    "webtest": "./node_modules/.bin/wdio ./test/web/config/smoke.test.local.js",
+    "test": "npm run apitest && npm run webtest",
+    "webtest-ci": "./node_modules/.bin/wdio ./test/web/config/smoke.test.cloud.js"
+  },
+  "dependencies": {
+    "@wdio/cli": "^5.9.6",
+    "@wdio/local-runner": "^5.9.6",
+    "@wdio/mocha-framework": "^5.9.4",
+    "@wdio/spec-reporter": "^5.9.3",
+    "@wdio/sync": "^5.9.6",
+    "axios": "^0.18.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-string": "^1.5.0",
+    "dotenv": "^8.0.0",
+    "mocha": "^6.1.4",
+    "mochawesome": "^3.1.2",
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-timeline-reporter": "^5.0.8",
+    "webdriverio": "5.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.3",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/selenium-standalone-service": "^5.0.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      [
+        "transform-runtime",
+        {
+          "polyfill": false
+        }
+      ]
+    ]
+  }
+}
