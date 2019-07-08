@@ -41,16 +41,14 @@ git clone https://github.com/PODHUPU/qassessment.git &&
 cd qassessment && 
 npm install
 ```
-  
 * Run API Tests -  
     * `npm run apitest`
 
-    * View API Test Report - open `api-test-report.html` present under `test-results/api/` folder
+* Run API Tests -  
+    * `npm run apitest`
 
 * Run WEB Tests - 
     * `npm run webtest`
-
-    *  View WEB Test Report - open `0-web-timeline-report.html` present under `test-results/web/` folder
 
 ## CI/CD Architecture:
 
@@ -60,7 +58,7 @@ Complete e2e CI/CD is accomplished using :
 * [DockerHub](https://hub.docker.com/)
 
 * API Tests
-<img src=img/circle-ci.png width=900>
+<img src=img/circle-ci.png width=500>
 
 1) When user pushes code to GitHub, CircleCi workflow is triggered and executes the following workflow:
     
@@ -73,13 +71,16 @@ Complete e2e CI/CD is accomplished using :
 ### Reports
 
 ** WEB Chrome Report
-<img src=img/chrome.png width=900>
+*  View WEB Test Report - open `0-web-timeline-report.html` present under `test-results/web/` folder
+<img src=img/chrome.png width=600>
 
 ** WEB Firefox Report
-<img src=img/firefox.png width=900>
+* View WEB Test Report - open `0-web-timeline-report.html` present under `test-results/web/` folder
+<img src=img/firefox.png width=600>
 
 ** API Report
-<img src=img/api-results.png width=900>
+<img src=img/api-results.png width=600>
+* View API Test Report - open `api-test-report.html` present under `test-results/api/` folder
 
 ### Bonus: Run the performance tests through cmd by
 

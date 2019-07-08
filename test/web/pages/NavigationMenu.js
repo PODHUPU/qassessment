@@ -1,12 +1,9 @@
 
 
 class NavigationMenu {
-    constructor() {
-        this.homePageUrl = '/';
-    }
 
-    loadHomePage() {
-        browser.url(this.homePageUrl);
+    loadPage(path) {
+        browser.url(path);
     }
 }
 

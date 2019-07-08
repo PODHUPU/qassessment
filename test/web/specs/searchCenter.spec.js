@@ -6,17 +6,14 @@ import util from '../util/common';
 import testData from '../testData';
 describe('Search test', () => {
     before('Load search page', () => {
-        browser.url('/');
+        NavigationMenu.loadPage('/');
     });
 
     it(`Verify search result value : ${testData.searchParameter} opens valid page`, () => {
         HomePage.searchTextBox.setValue(testData.searchParameter);
         HomePage.searchButton.click();
-        browser.url(HomePage.searchFirstResultLink.getAttribute('href'));
-        // console.log(browser.getUrl() + "  "+ browser.getTitle());
-        // expect(browser.getUrl()).to.include(searchParameter.split(' ').join(','))
-        // assert.include(browser.getTitle(),searchParameter.split(' ').join(','))
-        // expect(browser.getTitle()).to.contain(searchParameter.split(' ').join(','))
+        NavigationMenu.loadPage(HomePage.searchFirstResultLink.getAttribute('href'));
+        expect(util.getTitle()).to.include(testData.searchParameter);
         HomePage.searchLocateLink.click();
     });
     
@@ -25,7 +22,8 @@ describe('Search test', () => {
             HomePage.serviceCentreSearchTextBox.setValue(test.code);
             HomePage.serviceCentreSearchSubmitButton.click();
             const getServiceCenterUrl = browser.$(`//*[text()="${test.serviceCenter}"]`).getAttribute('href');
-            browser.url(getServiceCenterUrl);
+            NavigationMenu.loadPage(getServiceCenterUrl);
+            expect(util.getTitle()).to.include(test.serviceCenter);
             browser.back();
         });
       });
