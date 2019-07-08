@@ -1,0 +1,61 @@
+#Q1 Testing strategy and approach
+•	Testing strategy should contain Test Plan, In Scope Items, Entry/Exit Criteria, Change Management, Pass/Fail Criteria, Testing tasks, Environment & Infrastructure needs
+•	All the UI validations will be handled in automation
+•	APIs will be individually tested(consumer driven testing). API collections will be created to run as a group. Each API will be run with multiple input data where applicable
+•	All the negative scenarios will be covered and recorded
+•	Integration tests for global distribution system and payment gateway
+•	Run unit/functional tests on all the modules
+•	A defect management tool will be used to record defects. Each defect will be assigned a severity accordingly. Defects will be assigned to the active sprint board as per priority. 
+•	Ensure test environments are configured and fully functional before the tests can run.
+•	Cross browser execution, CI/CD and test reports will be recorded.
+
+
+Assumptions and Questions
+•	Global distribution system & payment gateway provides API specs
+
+
+
+#Q2 Test Scenarios:
+
+•	Verify that a registered user is able to retrieve previous booking data
+•	Verify that a registered user is able to make a new booking
+•	Verify that a guest user is able to make a new booking 
+•	Verify that departure and arrival date fields work as expected (both fields should not accept dates before current day and arrival date should always be later than departure date)
+•	Verify that the flight search functionality of global dist system returns correct flight and ticket prices as per the selected departure / arrival cities and dates
+•	Verify fields on passenger information entry page
+•	Verify order history reflects correct price of a booking after selecting a flight
+•	Verify payment gateway functionality (for valid and invalid card details)
+•	Verify reservation functionality 
+•	Verify that user details of a guest user are registered after payment is made
+•	Verify email and SMS notifications after successful storage of booking information
+•	Verify all the error scenarios like API call failures, system maintenance errors, data issues, unsuccessful search
+
+
+
+
+
+#Q3 Third-party API integrations
+
+•	Test each of the APIs independently (API Virtualization).
+•	Validate responses for valid and invalid data sent in the request
+•	Verify APIs by contract base testing (PACT) and schedule testing 
+•	Verify performance and error code scenarios in responses 
+•	Validate request and response schemas as per definitions
+
+
+#Q4 Automation Strategy & Approach
+
+•	Framework for reusable scripts and Time box conversion of manual test cases.
+•	Higher ROI, Independent, more test coverage, and increased test reliability with quality repetition
+
+Legacy Systems:
+•	Stabilize with Recorded Tests while you refactor to enable Component testing.
+•	Only do hand-written unit tests for new components. 
+
+Greenfield Development: 
+•	Keyword-Driven workflow and system tests.
+•	Data-Driven tests for business rules.
+•	TDD via hand-written Unit Tests
+
+Tools: PACT, consumer driven contract, webdriver IO, selenium, mocha, kubernetes, docker, timeline report, JMeter/K6 and Defect tracking application
+In scope and out of scope along with the activities and responsible person(s) for each automation testing phase: Initiation, Planning, Execution, Reporting, and Close-out are be considered.
