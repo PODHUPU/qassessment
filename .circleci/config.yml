@@ -5,10 +5,7 @@ workflows:
   version: 2
   build-test:
     jobs:
-      - build
-      - web-test:
-          requires:
-            - build   
+      - build 
       - api-test:
           requires:
             - build         
