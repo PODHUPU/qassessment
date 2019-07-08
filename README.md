@@ -91,7 +91,7 @@ Complete e2e CI/CD is accomplished using :
 1) To Run performance test use below command
     * `jmeter -n -t <JMX FILE PATH>  -JlatlonCSV=<LATLON CSV FILE PATH>  -JpostcodeCSV=<POSTCODE CSV FILE PATH> -l <DIR>/output.jtl`
 
-Example : `jmeter -n -t /Users/<username>/qassessment/PerformanceScript.jmx  -JlatlonCSV=/Users/<username>/qassessment/LatLon.csv  -JpostcodeCSV=/Users/<username>/qassessment/postcodes.csv -l dir/output.jtl`
+Example : `jmeter -n -t performanceTests/performanceScript.jmx -JlatlonCSV=performanceTests/LatLon.csv -JpostcodeCSV=performanceTests/Postcodes.csv -l performanceTests/output.jtl`
 
 2) To produce results use below command
     * `jmeter -g performanceTests/output.jtl -o performanceTests/html`
