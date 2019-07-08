@@ -1,7 +1,8 @@
 # qassessment
 
 [![CircleCI])](https://circleci.com/gh/PODHUPU/qassessment/tree/master)
-<img src=img/dashboard.png width=700>
+
+<img src=img/dashboard.png width=900>
 
 This repo contains Tests for both API and Web ACs.
 
