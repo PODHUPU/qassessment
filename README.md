@@ -59,6 +59,8 @@ Complete e2e CI/CD is accomplished using :
 * [CircleCi](https://circleci.com/gh/PODHUPU/qassessment/tree/master)
 * [DockerHub](https://hub.docker.com/)
 
+* API Tests
+<img src=img/circle-ci.png width=900>
 
 1) When user pushes code to GitHub, CircleCi workflow is triggered and executes the following workflow:
     
