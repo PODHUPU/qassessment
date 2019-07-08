@@ -7,7 +7,7 @@
 This repo contains Tests for both API and Web ACs.
 
 * __API Test framework details__ : 
-    * [Axios](https://github.com/axios/axios) HTTP Client ,[Mocha](https://mochajs.org/) Test Runner, [Chai](https://www.chaijs.com/) Assertion Library,[Mochawesome](https://www.npmjs.com/package/mochawesome) Reporter
+    * [Axios](https://github.com/axios/axios) HTTP Client, [Mocha](https://mochajs.org/) Test Runner, [Chai](https://www.chaijs.com/) Assertion Library,[Mochawesome](https://www.npmjs.com/package/mochawesome) Reporter
     * Testscases - 
 
           Get Weather by Lattitude & Longitude
@@ -27,7 +27,7 @@ This repo contains Tests for both API and Web ACs.
 * Node, Npm, JDK, Chrome, Firefox
 
 #### Get Started :
-* One-liner clone and install -
+* clone and install -
 ```
 git clone https://github.com/PODHUPU/qassessment.git && 
 cd qassessment && 
