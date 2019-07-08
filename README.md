@@ -7,20 +7,14 @@
 This repo contains Tests for both API and Web ACs.
 
 * __API Test framework details__ : 
-    * [Axios](https://github.com/axios/axios) HTTP Client
-    * [Mocha](https://mochajs.org/) Test Runner
-    * [Chai](https://www.chaijs.com/) Assertion Library
-    * [Mochawesome](https://www.npmjs.com/package/mochawesome) Reporter
+    * [Axios](https://github.com/axios/axios) HTTP Client ,[Mocha](https://mochajs.org/) Test Runner, [Chai](https://www.chaijs.com/) Assertion Library,[Mochawesome](https://www.npmjs.com/package/mochawesome) Reporter
     * Testscases - 
 
           Get Weather by Lattitude & Longitude
           Get Weather by PostCode
 
 * __WEB Test Framework details__ :
-    * [WebdriverIO](https://webdriver.io/) Selenium based Framework
-    * [Mocha](https://mochajs.org/) Test Runner
-    * [Chai](https://www.chaijs.com/) Assertion Library
-    * [Wdio Timeline Reporter](https://www.npmjs.com/package/wdio-timeline-reporter) (with screenshots of each step)
+    * [WebdriverIO](https://webdriver.io/) Selenium based Framework, [Mocha](https://mochajs.org/) Test Runner, [Chai](https://www.chaijs.com/) Assertion Library,[Wdio Timeline Reporter](https://www.npmjs.com/package/wdio-timeline-reporter) (with screenshots of each step)
     * Testscases - 
 
           UI Search for service center
@@ -30,11 +24,7 @@ This repo contains Tests for both API and Web ACs.
 
 #### Pre-Reqs :
 
-* Node
-* Npm
-* JDK
-* Chrome
-* Firefox
+* Node, Npm, JDK, Chrome, Firefox
 
 #### Get Started :
 * One-liner clone and install -
@@ -88,8 +78,7 @@ Complete e2e CI/CD is accomplished using :
 
 #### Pre-Reqs : 
 
-* JAVA
-* JMETER
+* JAVA, JMETER
 
 1) Run performance test
     * `jmeter -n -t <JMX FILE PATH>  -JlatlonCSV=<LATLON CSV FILE PATH>  -JpostcodeCSV=<POSTCODE CSV FILE PATH> -l <DIR>/output.jtl`
@@ -103,9 +92,7 @@ Example : `jmeter -n -t performanceTests/performanceScript.jmx -JlatlonCSV=perfo
 
 #### Pre-Reqs :
 
-    *Zalenium
-    *Selenium Grid
-    *Docker
+    *Zalenium, Selenium Grid, Docker
 
 Instead of triggering the build from CircleCI, you can run the tests from your local machine against the Cloud hosted Dockerized Selenium Grid
 Just do a 
