@@ -61,14 +61,3 @@ jobs:
       - run: apk add --update ca-certificates openssl && update-ca-certificates
       - store_artifacts:
           path: test-results/api
-
-  web-test:
-    docker:
-      - image: avinasheediga/qassessment:latest
-    steps:
-      - checkout
-      - run: yarn install --frozen-lockfile --production --silent         
-      - run: yarn run webtest-ci
-      - run: apk add --update ca-certificates openssl && update-ca-certificates
-      - store_artifacts:
-          path: test-results/web
