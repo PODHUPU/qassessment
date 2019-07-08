@@ -57,8 +57,7 @@ Complete e2e CI/CD is accomplished using :
     * Step 1 -  creates a Docker Image of the Test Code and Pushes to DockerHub
     * Step 2 - parallel execution of a. and b.
     
-        * a. executes API tests inside a docker container using the image created in Step 1 and generates Mochawesome test report and stores under Artifacts 
-        * b. executes WEB tests inside a docker container using the image created in Step 1 and generates Wdio-Timeline test report and stores under Artifacts
+        * executes API tests inside a docker container using the image created in Step 1 and generates Mochawesome test report and stores under Artifacts 
 
 ### Reports
 
