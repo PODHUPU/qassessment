@@ -79,8 +79,8 @@ Complete e2e CI/CD is accomplished using :
 <img src=img/firefox.png width=600>
 
 ** API Report
-<img src=img/api-results.png width=600>
 * View API Test Report - open `api-test-report.html` present under `test-results/api/` folder
+<img src=img/api-results.png width=600>
 
 ### Bonus: Run the performance tests through cmd by
 
@@ -97,7 +97,13 @@ Example : `jmeter -n -t performanceTests/performanceScript.jmx -JlatlonCSV=perfo
 2) To produce results use below command
     * `jmeter -g performanceTests/output.jtl -o performanceTests/html`
 
-###[ set as configuration selenium grid & headless]
+### Set configuration selenium grid & headless 
+
+#### Pre-Reqs :
+
+    *Zalenium
+    *Selenium Grid
+    *Docker
 
 Instead of triggering the build from CircleCI, you can run the tests from your local machine against the Cloud hosted Dockerized Selenium Grid
 Just do a 
