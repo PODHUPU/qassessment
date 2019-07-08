@@ -37,3 +37,41 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1562432239664,423,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-9,text,false,,750,225,1,1,423,0,0
 1562432244522,1491,GET Current Weather Data by lat and lon,429,,10 Requests in 1min 3-10,text,false,,750,214,1,1,1491,0,1080
 1562432246013,410,GET Current Weather Data by Postal Code ${postcode},429,,10 Requests in 1min 3-10,text,false,,750,225,1,1,409,0,0
+1562549319720,1884,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-1,text,true,,1406,214,1,3,1884,0,1577
+1562549319911,1692,GET Current Weather Data by 32 & 9,200,OK,Latlon Group 1-1,text,true,,1400,213,1,3,1692,0,1385
+1562549319914,1704,GET Current Weather Data by Postal Code ﻿2000,200,OK,Postcode Group 2-1,text,true,,11222,233,1,3,1702,0,1382
+1562549321614,251,GET Current Weather Data by 45 & 76,200,OK,Latlon Group 1-1,text,true,,1420,214,1,3,251,0,0
+1562549321614,289,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-1,text,true,,11319,225,1,3,287,0,0
+1562549321619,350,GET Current Weather Data by Postal Code 2600,200,OK,Postcode Group 2-1,text,true,,11186,224,1,2,348,0,0
+1562549321866,253,GET Current Weather Data by 34 & 88,200,OK,Latlon Group 1-1,text,true,,1432,214,1,2,253,0,0
+1562549321969,1239,GET Current Weather Data by Postal Code 3000,200,OK,Postcode Group 2-1,text,true,,11168,224,1,2,1238,0,930
+1562549322120,1194,GET Current Weather Data by 23 & 87,200,OK,Latlon Group 1-1,text,true,,1432,214,1,2,1193,0,944
+1562549323210,307,GET Current Weather Data by Postal Code 4000,200,OK,Postcode Group 2-1,text,true,,11113,224,1,2,305,0,0
+1562549323315,257,GET Current Weather Data by 12 & 89,200,OK,Latlon Group 1-1,text,true,,1438,214,1,2,257,0,0
+1562549323573,244,GET Current Weather Data by 55 & 98,200,OK,Latlon Group 1-1,text,true,,1420,214,1,2,244,0,0
+1562549323517,303,GET Current Weather Data by Postal Code 5000,200,OK,Postcode Group 2-1,text,true,,11101,224,1,2,301,0,0
+1562549323818,329,GET Current Weather Data by 54 & 78,200,OK,Latlon Group 1-1,text,true,,1428,214,1,2,328,0,0
+1562549323820,328,GET Current Weather Data by Postal Code 6000,200,OK,Postcode Group 2-1,text,true,,11176,224,1,2,326,0,0
+1562549324147,1433,GET Current Weather Data by 34 & 23,200,OK,Latlon Group 1-1,text,true,,1406,214,1,2,1433,0,1126
+1562549324149,1450,GET Current Weather Data by Postal Code 7000,200,OK,Postcode Group 2-1,text,true,,11187,224,1,2,1448,0,1124
+1562549325581,259,GET Current Weather Data by 98 & 34,200,OK,Latlon Group 1-1,text,true,,1421,214,1,3,259,0,0
+1562549325599,308,GET Current Weather Data by Postal Code 800,200,OK,Postcode Group 2-1,text,true,,11172,223,1,3,306,0,0
+1562549325841,252,GET Current Weather Data by 8 & 78,200,OK,Latlon Group 1-1,text,true,,1433,213,1,2,252,0,0
+1562549325653,1155,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-2,text,true,,1405,214,1,1,1155,0,927
+1562549326809,307,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-2,text,true,,11318,225,1,1,306,0,0
+1562549331655,1321,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-3,text,true,,1405,214,1,1,1321,0,1095
+1562549332976,286,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-3,text,true,,11318,225,1,1,285,0,0
+1562549337654,1292,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-4,text,true,,1405,214,1,1,1291,0,1063
+1562549338946,228,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-4,text,true,,11318,225,1,1,227,0,0
+1562549343655,1218,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-5,text,true,,1405,214,1,1,1218,0,991
+1562549344875,230,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-5,text,true,,11318,225,1,1,227,0,0
+1562549349653,1257,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-6,text,true,,1405,214,1,1,1257,0,1030
+1562549350911,228,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-6,text,true,,11318,225,1,1,227,0,0
+1562549355655,1362,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-7,text,true,,1405,214,1,1,1362,0,1056
+1562549357018,307,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-7,text,true,,11318,225,1,1,307,0,0
+1562549361654,1325,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-8,text,true,,1405,214,1,1,1325,0,1099
+1562549362980,287,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-8,text,true,,11318,225,1,1,286,0,0
+1562549367658,1275,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-9,text,true,,1405,214,1,1,1275,0,1048
+1562549368934,272,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-9,text,true,,11318,225,1,1,271,0,0
+1562549373656,1407,GET Current Weather Data by lat and lon,200,OK,10 Requests in 1min 3-10,text,true,,1405,214,1,1,1407,0,1181
+1562549375064,229,GET Current Weather Data by Postal Code ${postcode},200,OK,10 Requests in 1min 3-10,text,true,,11318,225,1,1,228,0,0
