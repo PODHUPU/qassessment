@@ -15,6 +15,7 @@ exports.config = {
             browserName: 'chrome',
             'goog:chromeOptions': {
                 args: [
+                    '--window-size=1280,1024',
                     '--start-maximized',
                     '--disable-infobars',
                     '--incognito',
@@ -29,6 +30,7 @@ exports.config = {
             browserName: 'firefox',
             'moz:firefoxOptions': {
                 args: [
+                    '--window-size=1280,1024',
                     '--start-maximized',
                     '--disable-infobars',
                     '--incognito',

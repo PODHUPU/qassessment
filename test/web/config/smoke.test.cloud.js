@@ -14,6 +14,7 @@ exports.config = {
             browserName: 'chrome',
             'goog:chromeOptions': {
                 args: [
+                    '--headless',
                     '--start-maximized',
                     '--disable-infobars',
                     '--incognito',
@@ -28,6 +29,7 @@ exports.config = {
             browserName: 'firefox',
             'moz:firefoxOptions': {
                 args: [
+                    '--headless',
                     '--start-maximized',
                     '--disable-infobars',
                     '--incognito',

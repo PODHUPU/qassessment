@@ -41,8 +41,8 @@ git clone https://github.com/PODHUPU/qassessment.git &&
 cd qassessment && 
 npm install
 ```
-* Run API Tests -  
-    * `npm run apitest`
+* Run Both Tests -  
+    * `npm run test`
 
 * Run API Tests -  
     * `npm run apitest`
@@ -89,10 +89,16 @@ Complete e2e CI/CD is accomplished using :
 * JAVA
 * JMETER
 
-1) To Run performance test use below command
+1) Run performance test
     * `jmeter -n -t <JMX FILE PATH>  -JlatlonCSV=<LATLON CSV FILE PATH>  -JpostcodeCSV=<POSTCODE CSV FILE PATH> -l <DIR>/output.jtl`
 
 Example : `jmeter -n -t performanceTests/performanceScript.jmx -JlatlonCSV=performanceTests/LatLon.csv -JpostcodeCSV=performanceTests/Postcodes.csv -l performanceTests/output.jtl`
 
 2) To produce results use below command
     * `jmeter -g performanceTests/output.jtl -o performanceTests/html`
+
+###[ set as configuration selenium grid & headless]
+
+Instead of triggering the build from CircleCI, you can run the tests from your local machine against the Cloud hosted Dockerized Selenium Grid
+Just do a 
+ * RUN `npm run webtest-ci` from your local

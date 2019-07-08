@@ -1,4 +1,3 @@
-// import { assert } from 'chai';
 import HomePage from '../pages/HomePage';
 import { assert } from 'chai';
 import NavigationMenu from '../pages/NavigationMenu';
