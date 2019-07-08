@@ -68,6 +68,17 @@ Complete e2e CI/CD is accomplished using :
         * a. executes API tests inside a docker container using the image created in Step 1 and generates Mochawesome test report and stores under Artifacts 
         * b. executes WEB tests inside a docker container using the image created in Step 1 and generates Wdio-Timeline test report and stores under Artifacts
 
+### Reports
+
+** WEB Chrome Report
+<img src=img/chrome.png width=900>
+
+** WEB Firefox Report
+<img src=img/firefox.png width=900>
+
+** API Report
+<img src=img/api-results.png width=900>
+
 ### Bonus: Run the performance tests through cmd by
 
 #### Pre-Reqs : 
